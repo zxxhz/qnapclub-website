@@ -1,4 +1,3 @@
-# qnapclub_website
 # QNAPClubCN 官方网站
 
 这是 QNAPClubCN 社区的官方网站项目。QNAPClubCN 是中国活跃的 QNAP NAS 爱好者社区,致力于分享 NAS 使用经验和技术交流。
