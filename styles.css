@@ -91,24 +91,32 @@ body {
     max-width: 600px;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 1.2rem 3rem;
-    font-size: 1.2rem;
-    background: #007AFF;
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
-.cta-button:hover {
-    background: #0056b3;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+.primary-btn {
+    background: transparent;
+    color: #007AFF;
+    border: 2px solid #007AFF;
+}
+
+.primary-btn:hover {
+    background: rgba(0, 122, 255, 0.1);
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
+.secondary-btn {
+    background: #007AFF;
     color: white;
+    border-radius: 30px;
+}
+
+.secondary-btn:hover {
+    background: #0056b3;
 }
 
 /* 服务部分样式 */
@@ -275,6 +283,23 @@ body {
 
 .join-button:hover {
     background: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* 添加按钮的圆角样式到 secondary-btn */
+.cta-button {
+    display: inline-block;
+    padding: 1.2rem 3rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 2px solid #007AFF;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
